@@ -1,0 +1,94 @@
+body {
+  font-family: 'Raleway';
+}
+
+#title {
+  background-color: #000000;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Space Mono', sans-serif;
+}
+
+.navbar {
+  padding: 0 0 10rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 15%;
+}
+
+.title-img {
+  position: absolute;
+  width: 33rem;
+  top: 13rem;
+  right: 9rem;
+}
+
+
+.triple-feature-img {
+  display: block;
+  margin: 5rem auto 5rem;
+  animation: fadeIn 5s;
+}
+
+#slideshow {
+  background-color: #000000;
+  color: white;
+}
+
+.slideshow-img {}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#contact{
+  background-color: #grey;
+}
+
+#footer{
+  background-color: #000000;
+  color: white;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #00ADB5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4abaff;
+  background-image: -webkit-linear-gradient(top, #4abaff, #00ADB5);
+  background-image: -moz-linear-gradient(top, #4abaff, #00ADB5);
+  background-image: -ms-linear-gradient(top, #4abaff, #00ADB5);
+  background-image: -o-linear-gradient(top, #4abaff, #00ADB5);
+  background-image: linear-gradient(to bottom, #4abaff, #00ADB5);
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
